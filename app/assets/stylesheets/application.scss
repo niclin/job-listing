@@ -64,14 +64,22 @@
     color: #212121;
 }
 
+//---------Video-------
+
+.video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
 //---------Box---------
 
 .box {
-    background-image: image-url("header.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
-
     .box-inner {
         background-color: rgba(250, 250, 250, 0.69);
         padding-bottom: 5px;
@@ -108,6 +116,7 @@
 }
 
 .content-section-b {
+    background-color: #ffffff;
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
